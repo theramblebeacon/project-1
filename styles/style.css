@@ -1,0 +1,24 @@
+p {
+  color: red;
+    width: auto;
+    align-self: center;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    align-self: center;
+}
+
+h3 {
+    align-self: center;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.title {
+    height: 50px;
+    text-align: center;
+    background-color: #aaa8a5;
+    margin-bottom: 15px;
+    
+}
