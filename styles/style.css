@@ -1,16 +1,14 @@
 p {
-  color: red;
     width: auto;
     align-self: center;
     border: 1px solid black;
-    font-family: 'Roboto', sans-serif;
 }
 img {
-    align-self: center;
 }
 
 h3 {
     align-self: center;
+    padding: 15px;
     font-family: 'Raleway', sans-serif;
     
 }
@@ -18,7 +16,29 @@ h3 {
 .title {
     height: 50px;
     text-align: center;
-    background-color: #aaa8a5;
-    margin-bottom: 15px;
+    background: linear-gradient(#b4b4b4, #f4f4f4);
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+a:hover {
+    color: #d6251e;
+}
+.main {
+    text-align: center;
+}
+
+.main-image {
+    align-content: center;
+    background: linear-gradient(#f4f4f4,white);
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
     
 }
