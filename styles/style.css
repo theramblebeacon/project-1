@@ -4,27 +4,28 @@ p {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
+    padding: 0 20px;
 }
+
 
 h1 {
     margin: 0;
     color: black;
     font-size: 30px;
-    text-align: center;
-    padding: 25px 0;
+    float: right;
+    padding: 25px 25px;
     font-family: 'Raleway', sans-serif;
-    background-color: #ebe7dc;
     text-shadow: 2px 2px .5px white;
     text-transform: capitalize;
     font-weight: bold;
-    
+
 }
 a {
     text-decoration: none;
     color: gray;
 }
 a:hover {
-    color: #d6251e;
+    color: #585757;
 }
 .main {
     text-align: center;
@@ -42,10 +43,10 @@ html {
 
 body {
     width: 1000px;
+    align-content: center;
+    position: relative;
   margin: 0 auto;
-  background: #ededed;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+    background-color: white;
 }
 
 img {
@@ -65,8 +66,9 @@ button:hover {
 background-color: indianred;
 }
 .nav {
-    align-content: left;
-    margin-bottom: 20px;
+    position: relative;
+    float: left;
+    display: inline-block;
 }
 
 li {
@@ -77,5 +79,51 @@ li {
 ul {
    margin: none;
     list-style-type: none;
-    display: inline;
+}
+
+.intro {
+    position: relative;
+    margin: 15px;
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 50px 0px;
+}
+
+.art-main {
+    font-size: 12px;
+
+}
+
+footer {
+    display: block;
+    position: relative;
+    font-size: .25em;
+    font-style: italic;
+    padding: 10px 20px;
+    align-content: left;
+    font-family: Raleway, sans-serif;
+}
+
+div.background {
+    background-image: url(/images/Morninglakeslooptempo-7.jpg);
+    position: fixed;
+    display: block;
+}
+
+.master {
+    align-content: center;
+    display: block;
+    height: 60px;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.container {
+    display: block;
+    width: inherit;
+    padding: 20px;
+    height: auto;
 }

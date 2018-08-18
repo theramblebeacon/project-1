@@ -1,25 +1,52 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
-    <meta name="pro-1" content="width-device-width, initial-scale=1">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <meta property="og:title" content="Home | Project 1">
+    <meta property="og:description" content="Project 1 is your one-stop site for bicycle adventure: blurring the lines between bikepacking, touring, and general bicycle-based exploration.">
+    <meta property="og:url" content="#">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
     <title>Project-1</title>
-          </head>
-    <body>
-    <h1>Project One</h1>
-    <div class="nav">
-        <ul>
-        <li><a href="#">Reports</a></li>
-        <li><a href="#">Gear</a></li>
-        <li><a href="#">About</a></li>
-        </ul>
-        </div>
-    <img src="images/crestovernight.jpg" alt="First image">
-        <p class="main">In the beginning, I don't know what to write, because expression isn't really the point I'm at yet...</p>
-        <p class="main">Learning the first words of this new language is slowly giving me the tools to do more though!  Right now I'm using bits i've learned at <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">MDN</a>!</p>
+</head>
 
-        <script src="scripts/main.js"></script>
-         </body>
+<body>
+    <header class="master">
+        <h1>Project One</h1>
+        <div class="nav">
+            <ul>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Gear</a></li>
+                <li><a href="articlepage.html">About</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <article>
+            <section class="intro"><a href="views-from-the-crest.html">Views from the crest</a></section>
+            <a href="views-from-the-crest.html"><img src="images/crestovernight.jpg" alt="First image"></a>
+            <p class="main">In the beginning, I don't know what to write, because expression isn't really the point I'm at yet...</p>
+            <p><a href="views-from-the-crest.html"><em>Keep reading</em></a></p>
+        </article>
+        <button>Click me</button>
+    </div>
+    <article>
+        <section class="intro"></section>
+    </article>
+
+    <footer>
+        <p>&copy;2018 Theramblebeacon</p>
+    </footer>
+    <script>
+        var button = document.querySelector("button");
+
+        button.onclick = function() {
+            var name = prompt("What's your name?");
+            alert("Hello " + name + ", how's it going?");
+        }
+    </script>
+</body>
+
 </html>
